@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Helios</title>
+    <link rel="stylesheet" href="../bootstrap-5.3.0-alpha3-dist/css/bootstrap.min.css">
+    <style>
+        body {
+            background-color: rgb(33, 37, 41);
+        }
+
+        .postavi{
+            pointer-events: none;
+            transition: 0.3s;
+
+            position: fixed;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            z-index: 99;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 16px;
+            color: #fff;
+        }
+
+        img {
+            width: 100px;
+            height: 75px;
+        }
+
+        h1 {
+            display: block;
+        }
+
+        h3 {
+            margin-top: 170px;
+            position: fixed;
+            text-align: center;
+            color: #fff;
+            font-size: large;
+            pointer-events: all;
+        }
+    </style>
+</head>
+<body>
+    <div class="postavi">
+        <img src="../pictures/error.jpg">
+        <h1>Dogodila se greška u povezivanju sa serverom!</h1>
+        <h3><a href="../index.html" class="text-white">Povratak na pocetnu</a></h3>
+    </div>
+    
+</body>
+</html>

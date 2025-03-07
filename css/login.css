@@ -1,0 +1,76 @@
+.popup {
+    opacity: 0;
+    pointer-events: none;
+    transition: 0.3s;
+
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 99;
+    background-color: rgba(33, 37, 41, 0.75);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+}
+
+.popup.active {
+    opacity: 1;
+    pointer-events: all;
+}
+
+.popup-inner {
+    background-color: rgb(33, 37, 41);
+    padding: 10px 16px 32px;
+    max-width: 768px;
+    border-radius: 16px;
+    box-shadow: 0px 6px 12px rgba(33, 37, 41, 0.75);
+}
+
+.close-button {
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #fff;
+}
+
+.dugme-registracija {
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 0.75rem;
+    color: #fff;
+}
+
+.kontrola-unosa input {
+    border: 2px solid #fff;
+    border-radius: 4px;
+    display: block;
+    font-size: 12px;
+    width: 100%;
+}
+
+.kontrola-unosa input:focus {
+    outline: 0;
+}
+
+.kontrola-unosa.success input {
+    border-color: #198754;
+}
+
+.kontrola-unosa.error input {
+    border-color: #dc3545;
+}
+
+.kontrola-unosa .error {
+    color: #dc3545;
+    font-size: 12px;
+    height: 13px;
+}

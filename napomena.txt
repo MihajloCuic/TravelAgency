@@ -1,0 +1,7 @@
+Uz konsultaciju sa asistentom Tamarom i njeno odobrenje
+Podaci na stranicama Letovanje.html i Zimovanje.html se prikazuju statički
+pošto ne postoji mogućnost da se destinacije filtriraju na osnovu podgrupa
+koje su napravljene prilikom prvobitne izrade stranice
+i kako ne bi došlo do potpune izmene samog izgleda ovih stranica.
+Međutim ostale stranice za pojedinačni prikaz agencije i destinacije, kao i stranice
+za prikaz svih agencija i gradovi evrope se učitavaju dinamički.

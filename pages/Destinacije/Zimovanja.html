@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agencije</title>
+    <link rel="stylesheet" href="../../bootstrap-5.3.0-alpha3-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="../../css/style.css">
+    <link rel="stylesheet" href="../../css/login.css">
+</head>
+<body class="pt-5 bg-zimovanje">
+    <header class="fluid-container">
+        <nav class="navbar fixed-top navbar-expand-lg bg-dark" data-bs-theme="dark">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="../../index.html"><img src="../../pictures/logo.jpg" alt="logo" class="me-1" style="height: 43px; width: 43px;">Hếlios</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="../../index.html">Početna</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="../agencije.html">Agencije</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Admin Page
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="../AdminPage/IzmenaTuristickihAgencija.html">Izmena Turističkih Agencija</a></li>
+                      <li><a class="dropdown-item" href="../AdminPage/IzmenaKorisnika.html">Izmena Korisnika</a></li>
+                    </ul>
+                  </li>
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit"><i class="bi bi-search"></i></button>
+                </form>
+                <button type="button" class="ms-1 btn " id="login"><i class="bi bi-person-circle"></i></button>
+              </div>
+            </div>
+        </nav>
+    </header>
+    <div class="container mt-5 pt-5">
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card h-100 text-center p-3" data-bs-theme="dark">
+            <h4>Zimuj u Srbiji i regionu</h4>
+            <div class="card-body">
+              <p>Kopaonik i Bosna i Hercegovina nude nezaboravno zimsko iskustvo, sa predivnim planinskim pejzažima, 
+                velikim brojem staza za skijanje i snowboarding, kao i brojnim drugim aktivnostima na snegu. 
+                Uživajte u vrhunskoj usluzi i udobnom smeštaju u modernim hotelima i apartmanima, dok se opuštate u toplini saune ili bazena. 
+                Ne propustite priliku da okusite ukusnu hranu i pića u restoranima i kafićima na stazama. 
+                Rezervišite svoj zimski odmor kod nas i uživajte u nezaboravnom iskustvu u ovim popularnim zimskim destinacijama.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <a href="../destinacija.html?id=Kopaonik" class="text-decoration-none text-white">
+            <div class="card rounded-circle overflow-hidden h-100">
+              <img src="https://i.imgur.com/AE9iOfg.jpeg" alt="Kopaonik" class="img-fluid object-fit-cover card-img h-100">
+              <div class="carousel-caption">
+                <h4>Kopaonik</h4>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col">
+          <a href="../destinacija.html?id=Bosna%20i%20Hercegovina" class="text-decoration-none text-white">
+            <div class="card rounded-circle overflow-hidden h-100">
+              <img src="https://i.imgur.com/RaiLS17.jpeg" alt="Bosna i Hercegovina" class="img-fluid object-fit-cover card-img h-100">
+              <div class="carousel-caption">
+                <h4>Bosna i Hercegovina</h4>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid mt-5 pozadina p-5">
+      <div class="row row-cols-1 g-4 row-cols-md-4">
+        <div class="col">
+          <a href="../destinacija.html?id=Slovenija" class="text-decoration-none text-white">
+            <div class="card rounded-circle overflow-hidden h-100">
+              <img src="https://i.imgur.com/epFzema.jpeg" alt="Slovenija" class="img-fluid object-fit-cover card-img h-100">
+              <div class="carousel-caption">
+                <h4>Slovenija</h4>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col">
+          <div class="card h-100 pt-3 text-center" data-bs-theme="dark">
+            <h4>EVROPA POD SNEGOM</h4>
+            <div class="card-body">
+              <p>
+                Francuska, Slovenija i Austrija nude nezaboravno zimsko iskustvo sa predivnim planinskim pejzažima i stazama za skijanje za sve nivoe skijaša. 
+                Uživajte u vrhunskoj gastronomiji, savršenom smeštaju i brojnim dodatnim aktivnostima, poput spa centara, bazena i zabavnih parkova. 
+                Rezervišite svoj zimski odmor kod nas i doživite nezaboravno iskustvo u jednoj od ovih popularnih evropskih zimskih destinacija.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <a href="../destinacija.html?id=Austrija" class="text-decoration-none text-white">
+            <div class="card rounded-circle overflow-hidden h-100">
+              <img src="https://i.imgur.com/0pD1inU.jpeg" alt="Austrija" class="img-fluid object-fit-cover card-img h-100">
+              <div class="carousel-caption">
+                <h4>Austrija</h4>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col">
+          <a href="../destinacija.html?id=Francuska" class="text-decoration-none text-white">
+            <div class="card rounded-circle overflow-hidden h-100">
+              <img src="https://i.imgur.com/X2dpgUP.jpeg" alt="Francuska" class="img-fluid object-fit-cover card-img h-100">
+              <div class="carousel-caption">
+                <h4>Francuska</h4>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+    <!-- popup za login -->
+    <div class="popup" id="popupLogin">
+      <div class="popup-inner text-white">
+          <button class="close-button text-white izlaz">&times;</button>
+          <h3 class="text-center">Login</h3>
+          <form>
+              <div class="kontrola-unosa">
+                  <label name="username">Korisničko ime:</label>
+                  <input type="text" id="username">
+                  <div class="error"></div>
+              </div>
+              <div class="kontrola-unosa">
+                  <label name="password">Lozinka:</label>
+                  <input type="password" id="password">
+                  <div class="error"></div>
+              </div>
+              <div class="text-center">
+                  <div><buton type="submit" class="btn btn-outline-light mt-2" id="loginDugme" onclick="validirajLogin()">Login</button></div>
+                  <button type="button" class="dugme-registracija" id="registracija"><u>Registracija</u></button>
+              </div>
+          </form>
+      </div>
+  </div>
+    <!-- popup za uspesan login -->
+    <div class="popup" id="uspesanLogin">
+      <div class="popup-inner text-white">
+          <button class="close-button text-white izlaz">&times;</button>
+          <h3 class="text-center text-white">Login uspešan!</h3>
+      </div> 
+    </div>
+    <!-- popup za registraciju korisnika -->
+    <div class="popup" id="popupRegistracija">
+      <div class="popup-inner text-white">
+          <button class="close-button text-white izlaz">&times;</button>
+          <h3 class="text-center">Registracija</h3>
+          <form>
+              <div class="kontrola-unosa">
+                  <label name="korisnickoIme">Korisničko ime:</label>
+                  <input type="text" id="korisnickoIme">
+                  <div class="error"></div>
+              </div>
+              <div class="kontrola-unosa">
+                  <label name="lozinka">Lozinka:</label>
+                  <input type="password" id="lozinka">
+                  <div class="error"></div>
+              </div>
+              <div class="kontrola-unosa">
+                  <label name="ime">Ime:</label>
+                  <input type="text" id="ime">
+                  <div class="error"></div>
+              </div>
+              <div class="kontrola-unosa">
+                  <label name="prezime">Prezime</label>
+                  <input type="text" id="prezime">
+                  <div class="error"></div>
+              </div>
+              <div class="kontrola-unosa">
+                  <label name="email">Email</label>
+                  <input type="text" id="email" placeholder="nesto@nesto.nesto">
+                  <div class="error"></div>
+              </div>
+              <div class="kontrola-unosa">
+                  <label name="datumRodjenja">Datum Rodjenja</label>
+                  <input type="date" id="datumRodjenja">
+                  <div class="error"></div>
+              </div>
+              <div class="kontrola-unosa">
+                  <label name="adresa">Adresa</label>
+                  <input type="text" id="adresa">
+                  <div class="error"></div>
+              </div>
+              <div class="kontrola-unosa">
+                  <label name="telefon">Telefon</label>
+                  <input type="text" id="telefon" placeholder="9 uzastopnih cifara">
+                  <div class="error"></div>
+              </div>
+              <div class="text-center">
+                  <button type="submit" class="btn btn-outline-light mt-2">Submit</button><br>
+              </div>
+          </form>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js" integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js" integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ" crossorigin="anonymous"></script>
+    <script src="../../javascript/loginRegistracija.js"></script>
+</body>
+</html>

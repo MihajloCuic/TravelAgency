@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Helios</title>
+    <link rel="stylesheet" href="bootstrap-5.3.0-alpha3-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/login.css">
+</head>
+<body class="pt-5">
+    <header class="fluid-container">
+        <nav class="navbar fixed-top navbar-expand-lg bg-dark" data-bs-theme="dark">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="index.html"><img src="pictures/logo.jpg" alt="logo" class="me-1" style="height: 43px; width: 43px;">Hếlios</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Početna</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="pages/agencije.html">Agencije</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Admin Page
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="pages/AdminPage/IzmenaTuristickihAgencija.html">Izmena Turističkih Agencija</a></li>
+                      <li><a class="dropdown-item" href="pages/AdminPage/IzmenaKorisnika.html">Izmena Korisnika</a></li>
+                    </ul>
+                  </li>
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit"><i class="bi bi-search"></i></button>
+                </form>
+                <button type="button" class="ms-1 btn " id="login"><i class="bi bi-person-circle"></i></button>
+              </div>
+            </div>
+        </nav>
+    </header>
+    <div class="container mt-5">
+        <h1 class="fs-1 text-white text-center">TOP 3 AGENCIJE</h1>
+            <div class="row row-cols-1 g-4 row-cols-md-3">
+                <div class="col">
+                    <a href="pages/agencija.html?id=Bečej%20prevoz" class="text-decoration-none">
+                        <div class="card h-100" data-bs-theme="dark">
+                        <img src="https://i.imgur.com/k4nEZm6.jpeg" class="card-img-top object-fit-cover h-100" alt="agencija4">
+                        <h2 class="text-center">Bečej prevoz</h2>
+                        </div>
+                    </a>
+                </div>
+                <div class="col">
+                    <a href="pages/agencija.html?id=Big%20Blue" class="text-decoration-none">
+                        <div class="card h-100" data-bs-theme="dark">
+                            <img src="https://i.imgur.com/nmAOOHF.jpeg" class="card-img-top object-fit-cover h-100" alt="agencija5">
+                            <h2 class="text-center">Big Blue</h2>
+                        </div>
+                    </a> 
+                </div>
+                <div class="col">
+                    <a href="pages/agencija.html?id=Planet%20AIR" class="text-decoration-none">
+                        <div class="card h-100" data-bs-theme="dark">
+                        <img src="https://i.imgur.com/GXPCPrq.jpeg" class="card-img-top object-fit-cover h-100" alt="agencija7">
+                        <h2 class="text-center">Planet AIR</h2>
+                        </div>
+                    </a>
+                </div>
+            </div>
+    </div>
+    <div class="bg-white mt-5 container-fluid p-5">
+        <div class="row g-4">
+            <div class="col col-12 col-sm-4">
+                <a href="pages/Destinacije/GradoviEvrope.html" class="text-decoration-none d-sm-inline">
+                    <div class="card">
+                        <img src="https://i.imgur.com/qIL83Vn.jpeg" alt="venecija" class="img-fluid object-fit-cover">
+                    </div>
+                </a>
+            </div>
+            <div class="col col-sm-6">
+                <a href="pages/Destinacije/GradoviEvrope.html" class="text-decoration-none text-dark"><h1 class="fs-1">GRADOVI EVROPE</h1></a>
+                <p class="fs-5 mt-4">
+                    Otkrijte bogatu kulturu i istoriju Evrope kroz našu rubriku "gradovi Evrope". 
+                    Istaknite svoje putovanje posetom nekim od najlepših gradova u Evropi, uključujući velike metropole poput Venecije, Milana i Rima,
+                    kao i manje gradove sa skrivenim draguljima koje tek treba otkriti.
+                    Doživite čaroliju evropskih gradova sa našim nezaboravnim putovanjima!
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="container mt-5 pb-5">
+        <div class="row g-4">
+            <div class="col col-12 col-md-6">
+                <a href="pages/Destinacije/Letovanja.html" class="text-decoration-none">
+                    <div class="okvir h-100 text-center">
+                        <h1 class="fs-1 text-white text-center">LETOVANJE</h1>
+                        <img src="https://i.imgur.com/kIq4M4i.jpeg" alt="stavros" class="img-fluid object-fit-cover rounded-1 h-50 ">
+                        <p class="fs-4 mt-4 text-white text-center">
+                            Uživajte u nezaboravnom odmoru na najlepšim plažama širom sveta!<br>
+                            Naša turistička agencija vodi Vas na egzotične destinacije sa kristalno čistim morem,
+                            predivnim peščanim plažama i obiljem aktivnosti za sve uzraste.
+                            
+                        </p>
+                    </div>
+                </a>
+            </div>
+            <div class="col col-12 col-md-6">
+                <a href="pages/Destinacije/Zimovanja.html" class="text-decoration-none">
+                    <div class="okvir h-100 text-center">
+                        <h1 class="fs-1 text-white text-center">ZIMOVANJE</h1>
+                        <img src="https://i.imgur.com/RaiLS17.jpeg" alt="BiH" class="img-fluid object-fit-cover rounded-1 h-50 w-100">
+                        <p class="fs-4 mt-4 text-white text-center">
+                            Priuštite sebi nezaboravno iskustvo zimskog odmora na najlepšim planinskim destinacijama širom Evrope! <br>
+                            Nudimo Vam širok izbor destinacija za zimovanje, sa prelepim pejzažima,
+                            beskrajnim stazama za skijanje i snoubording, kao i raznim drugim aktivnostima.
+                        </p>        
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+    <!-- popup za login -->
+    <div class="popup" id="popupLogin">
+        <div class="popup-inner text-white">
+            <button class="close-button text-white izlaz">&times;</button>
+            <h3 class="text-center">Login</h3>
+            <form>
+                <div class="kontrola-unosa">
+                    <label name="username">Korisničko ime:</label>
+                    <input type="text" id="username">
+                    <div class="error"></div>
+                </div>
+                <div class="kontrola-unosa">
+                    <label name="password">Lozinka:</label>
+                    <input type="password" id="password">
+                    <div class="error"></div>
+                </div>
+                <div class="text-center">
+                    <div><buton type="submit" class="btn btn-outline-light mt-2" id="loginDugme" onclick="validirajLogin()">Login</button></div>
+                    <button type="button" class="dugme-registracija" id="registracija"><u>Registracija</u></button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <!-- popup za uspesan login -->
+    <div class="popup" id="uspesanLogin">
+        <div class="popup-inner text-white">
+            <button class="close-button text-white izlaz">&times;</button>
+            <h3 class="text-center text-white">Login uspešan!</h3>
+        </div> 
+    </div>
+    <!-- popup za registraciju korisnika -->
+    <div class="popup" id="popupRegistracija">
+        <div class="popup-inner text-white">
+            <button class="close-button text-white izlaz">&times;</button>
+            <h3 class="text-center">Registracija</h3>
+            <form>
+                <div class="kontrola-unosa">
+                    <label name="korisnickoIme">Korisničko ime:</label>
+                    <input type="text" id="korisnickoIme">
+                    <div class="error"></div>
+                </div>
+                <div class="kontrola-unosa">
+                    <label name="lozinka">Lozinka:</label>
+                    <input type="password" id="lozinka">
+                    <div class="error"></div>
+                </div>
+                <div class="kontrola-unosa">
+                    <label name="ime">Ime:</label>
+                    <input type="text" id="ime">
+                    <div class="error"></div>
+                </div>
+                <div class="kontrola-unosa">
+                    <label name="prezime">Prezime</label>
+                    <input type="text" id="prezime">
+                    <div class="error"></div>
+                </div>
+                <div class="kontrola-unosa">
+                    <label name="email">Email</label>
+                    <input type="text" id="email" placeholder="nesto@nesto.nesto">
+                    <div class="error"></div>
+                </div>
+                <div class="kontrola-unosa">
+                    <label name="datumRodjenja">Datum Rodjenja</label>
+                    <input type="date" id="datumRodjenja">
+                    <div class="error"></div>
+                </div>
+                <div class="kontrola-unosa">
+                    <label name="adresa">Adresa</label>
+                    <input type="text" id="adresa">
+                    <div class="error"></div>
+                </div>
+                <div class="kontrola-unosa">
+                    <label name="telefon">Telefon</label>
+                    <input type="text" id="telefon" placeholder="9 uzastopnih cifara">
+                    <div class="error"></div>
+                </div>
+                <div class="text-center">
+                    <button type="submit" class="btn btn-outline-light mt-2">Submit</button><br>
+                </div>
+            </form>
+        </div>
+      </div>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js" integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js" integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ" crossorigin="anonymous"></script>
+    <script src="javascript/loginRegistracija.js"></script>
+</body>
+</html>

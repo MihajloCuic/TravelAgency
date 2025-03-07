@@ -1,0 +1,37 @@
+body {
+    background-image: url(../pictures/background.jpg);
+    background-repeat: no-repeat;
+    background-position: fixed;
+    background-size: cover;
+}
+
+.card {
+    transition: 0.3s;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(255,255,255,0.4);
+    transform: scale(1.05);
+}
+
+.okvir {
+    transition: 0.3s;
+}
+
+.okvir:hover {
+    box-shadow: 0 0 8px 5px rgba(255,255,255,0.4);
+}
+
+.pozadina {
+    background-color: rgba(33, 37, 41, 0.75);
+}
+
+.bg-zimovanje {
+    background-image: url(https://i.imgur.com/rd1QLOC.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-pozadina {
+    background-color: rgba(33, 37, 41, 0.75);
+}
